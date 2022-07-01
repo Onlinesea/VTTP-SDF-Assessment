@@ -56,7 +56,6 @@ public class Client
             oos.flush();
 
             //Receive the result from the server
-
             boolean result = ois.readBoolean();
             if (result){
                 System.out.println("Successful");
