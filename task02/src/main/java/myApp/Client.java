@@ -58,10 +58,10 @@ public class Client
             //Receive the result from the server
             boolean result = ois.readBoolean();
             if (result){
-                System.out.println("Successful");
+                System.out.println("SUCCESS");
             }else{
                 String error = ois.readUTF();
-                System.out.println("Failed " + error);
+                System.out.println("FAILED >" + error);
 
             }
 
